@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:entries="@array/quiz_type_list_for_settings"
+        android:entryValues="@array/quiz_type_list"
+        android:key="pref_quiz_type"
+        android:title="@string/quiz_type_text"
+        android:summary="@string/quiz_type_description_text"
+        android:persistent="true"
+        android:defaultValue="Names" />
+
+</PreferenceScreen>
